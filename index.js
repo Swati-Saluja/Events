@@ -98,7 +98,7 @@ function displayEventfulSearchData(data) {
   }
   else 
   {
-    item.image.medium.url='http:'+item.image.medium.url;
+    item.image.medium.url='https:'+item.image.medium.url;
     //item.image.medium.url=`'http:${item.image.medium.url}'`;
 
     //console.log(item.image.medium.url);
