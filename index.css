@@ -294,7 +294,7 @@ h2{
   background-color: white;
 }
 
-.results .result-displayed:nth-child(odd){ background:red;
+.results .result-displayed:nth-child(odd){ background:#E8E8E8;
 border-bottom:1px solid grey; 
 border-top:1px solid grey;
 padding-bottom: 20px;}
