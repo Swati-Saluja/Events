@@ -267,14 +267,6 @@ h2{
   margin:0 auto;
  }
 
-.prev{
-  display: inline-block;
-}
-.next{
-  display: inline-block;
-  margin-left: 1250px;
-}
-
 .js-search-results{
   margin-top: 19px;
   background-color: white;
@@ -294,10 +286,29 @@ h2{
   background-color: white;
 }
 
+.action{
+  padding-bottom: 20px;
+  /*background-color: white;*/
+}
+
+.prev{
+  display: inline-block;
+  margin-left:30%;
+  width:100px;
+  height:25px;
+  }
+
+.next{
+  display: inline-block;
+  margin-left: 30%;
+  width:100px;
+  height:25px;
+
+}
 .results .result-displayed:nth-child(odd){ background:#E8E8E8;
 border-bottom:1px solid grey; 
 border-top:1px solid grey;
-padding-bottom: 20px;}
+padding-bottom: 40px;}
 
 
 @media only screen and (max-width: 1024px) {
