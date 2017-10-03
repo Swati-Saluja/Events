@@ -32,16 +32,21 @@ function renderResult(result) {
   return `
       
       <div class="result-displayed">
+
+                
+        <div class="image">
+            <a class="js-result-title" href="${result.url}" target="_blank"><div class="img" style="background-image:url('${result.image.medium.url}')"
+            alt="Sorry! This image does not exist!"></div></a>
+            <p>Click on the Image!</p>
+        </div> 
         <h2 id="title">${result.title} </h2>
               
         <h4>${result.start_time}</h4>
          
-        <h2>in ${result.city_name}</h2>
+        <h3>in ${result.city_name}</h3>
 
     
-        <div class="image">
-            <a class="js-result-title" href="${result.url}" target="_blank"><img src="${result.image.medium.url}" width="200px" alt="Image not present in the data"></a>
-        </div>
+        
 
         <p>Check out ${result.title}!</p> 
       
@@ -53,7 +58,6 @@ function renderResult(result) {
       </div>
 
 
-      <div class="border"></div>
 
     
 
@@ -116,7 +120,9 @@ function displayEventfulSearchData(data) {
     </div>`*/);
 
   $(".results").html(results);
-}
+  
+}        
+
 //console.log("b");
 function watchSubmit() {
   //console.log("d");
