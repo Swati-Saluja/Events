@@ -113,19 +113,38 @@ function displayEventfulSearchData(data) {
   //$('.js-search-results').prepend(`<h4>About ${data.pageInfo.totalResults} results </h4>`);
   $('.js-search-results').html(`<h1>Results</h1>` +
     `<h4>About ${data.total_items} result/s </h4>` 
-    /*results +
-    `<div class=action>
-      <div class="prev"><a href="#">&lt; prev</a></div>
-      <div class="next"><a href="#">next &gt;</a></div>
-    </div>`*/);
+    );
+
 
   $(".results").html(results +
-  `<div class=action>
+
+   `<div class=action>
       <button class="prev" type="button"><a href="#">&lt; prev</a></button>
       <button class="next" type="button"><a href="#">next &gt;</a></button>
     </div>`);
-  
-}        
+
+  }        
+
+  function pagination(pNumber){
+
+    $(".prev, .next").click(event=>{
+      event.preventDefault();
+      // $("{data.page_number}")++;
+      var page_number=1;
+      // if (${data.page_number} === ${data.page_count}){
+        $(".next").hide();
+      // }
+      // else if (${data.page_number} < 2){
+        $(".prev").hide();
+      });
+    // }
+
+  // } 
+
+
+
+
+        
 
 //console.log("b");
 function watchSubmit() {
