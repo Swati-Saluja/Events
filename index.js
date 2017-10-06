@@ -13,7 +13,10 @@ function getDataFromApi(searchTermOne, searchTermTwo, searchTermThree, dates, ca
     units:'mi',
     sort_order: 'date',
     app_key:'FJjthswGhP26qMXR'
+
     }
+    
+          
   $.getJSON(EVENTFUL_SEARCH_URL, query, callback).fail(function(){
     console.log("error");
     
@@ -125,22 +128,7 @@ function displayEventfulSearchData(data) {
 
   }        
 
-  function pagination(pNumber){
-
-    $(".prev, .next").click(event=>{
-      event.preventDefault();
-      // $("{data.page_number}")++;
-      var page_number=1;
-      // if (${data.page_number} === ${data.page_count}){
-        $(".next").hide();
-      // }
-      // else if (${data.page_number} < 2){
-        $(".prev").hide();
-      });
-    // }
-
-  // } 
-
+  
 
 
 
