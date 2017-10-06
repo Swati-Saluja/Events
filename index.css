@@ -199,9 +199,10 @@ button[name=search-button]{
 }
 
 .result-displayed{
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   /*position: relative;*/
   padding-left: 120px;
+  padding-bottom: 20px;
 }
 
 /*.result-displayed>div{
@@ -217,7 +218,6 @@ button[name=search-button]{
 
 
 .result-displayed h2{
-  margin-bottom: 0;
   margin-bottom: 0;
 }
 
@@ -286,9 +286,10 @@ h2{
   background-color: white;
 }
 
-.action{
+.results .action{
   padding-bottom: 20px;
-  /*background-color: white;*/
+  padding-top: 20px;
+  border-top: 1px solid grey;
 }
 
 .prev{
@@ -315,10 +316,12 @@ h2{
 
   }
 
-.results .result-displayed:nth-child(odd){ background:#E8E8E8;
+.results .result-displayed:nth-child(odd){
+ background:#E8E8E8;
 border-bottom:1px solid grey; 
 border-top:1px solid grey;
-padding-bottom: 40px;}
+padding-bottom: 40px;
+}
 
 
 @media only screen and (max-width: 624px) {
@@ -352,32 +355,32 @@ label{
 
 .image{
   /*width:100%;*/
-  /*margin:0 auto;*/
+  margin:0 auto;
   display: block;
-  margin-right: 0;
-  text-align: center;
+  float:none;
 }
 
 .img {
   /*width:100%;*/
-  /*margin:0 auto;*/
+  margin:auto;
   display: block;
-  margin-right: 0;
-  text-align: center;
+  /*margin-right: 0;*/
   /*width:200px;
   height:130px;
   background-size:cover;
   */margin-top: 10%;
+  float:none;
 
 }
   .rateYo{
     display: block;
   margin-right: 0;
-  text-align: center;
+  
+  margin:0 auto;
   }
 
-h2{
+.result-displayed #title{
   display:block;
-  margin:0 auto;
+  text-align: center;
 }
 }
