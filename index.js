@@ -17,10 +17,16 @@ function getDataFromApi(searchTermOne, searchTermTwo, searchTermThree, dates, ca
     }
     
           
-  $.getJSON(EVENTFUL_SEARCH_URL, query, callback).fail(function(){
-    console.log("error");
-    
-  })
+  $.ajax({
+      url: EVENTFUL_SEARCH_URL,
+      data: query,
+      dataType: 'jsonp',
+      success: callback,
+      error: function(){
+        console.log("error");
+        
+      }
+    });
   
 }
 //console.log("hi");
