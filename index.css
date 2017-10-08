@@ -160,7 +160,7 @@ button[name=search-button]{
 .image{
   margin-top: 15px;
   float:right;
-  margin-right: 250px;
+  margin-right: 225px;
   clear:right;
   }
 
@@ -208,6 +208,8 @@ h2{
   height:130px;
   background-size:cover;
   margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .results{

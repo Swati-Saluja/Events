@@ -46,7 +46,7 @@ function renderResult(result) {
         <div class="image">
             <a class="js-result-title" href="${result.url}" target="_blank"><div class="img" style="background-image:url('${result.image.medium.url}')"
             alt="Sorry! This image does not exist!"></div></a>
-            <p>Click on the Image!</p>
+            <p>Click on the Image for more details!</p>
         </div> 
         <h2 id="title">${result.title} </h2>
               
