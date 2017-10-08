@@ -15,9 +15,11 @@ nav {
   background-color: black;
   width:100%;
 }
+
 nav ul li{
 	display: inline-block;
 }
+
 nav ul li a{
 	text-decoration:none;
 	color:white;
@@ -43,6 +45,7 @@ h1{
   text-align: center;
   margin: auto 628px;
 }
+
 #login{
   margin: 280px 480px;
   position:absolute;
@@ -53,13 +56,11 @@ h1{
   padding-top: 80px;
   padding-bottom: 80px;
   padding-right: 60px;
-  /*text-align: center;*/
 }
 
-
 .email-details{
-display: block;
- margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .email-details label{
@@ -72,14 +73,6 @@ display: block;
   margin-bottom: 5px;
 }
  
-input#email{
-  /*text-align: center;*/
-}
-
-input#password{
-  /*text-align: center;*/
-}
-
 button{
   border-radius:4px;
   width: 175px;
