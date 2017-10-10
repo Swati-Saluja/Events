@@ -256,6 +256,10 @@ label{
   float:none;
 }
 
+.icon{
+  display: none;
+}
+
 .rateYo{
   display: block;
   margin-right: 0;
@@ -285,4 +289,19 @@ button[name=search-button]{
 
 nav {
   margin-top:0;
+  text-align: center;
+}
+
+nav ul{
+  padding: 0;
+}
+
+nav ul li{
+  width: 24%;
+  text-align: center;
+}
+
+nav ul li a{
+margin-left:0;
+margin-right:0;
 }
