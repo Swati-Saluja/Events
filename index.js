@@ -63,9 +63,13 @@ function displayEventfulSearchData(data) {
 
     return renderResult(item); 
   })
+    if(data.total_items>10){
+      data.total_items="Top 10";
+    }
 
   $('.js-search-results').html(`<h1>Results</h1>` +
-    `<h4>About ${data.total_items} result/s </h4>` 
+    `<h4>${data.total_items} result${(data.total_items !== 0 && data.total_items !== 1)? 's' : ''}
+     </h4>` 
   );
 
 
