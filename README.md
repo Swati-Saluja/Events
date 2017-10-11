@@ -4,4 +4,4 @@
 
 A Web App where users would be able to see upcoming events related to entertainment, eg., movies, concerts, etc. in their desired location, based on the miles and date range selected by them.
 When the results are displayed, the users can even rate the Events based on their interest. 
-They would get a detailed information on the selected Event relating to the dates, timings, exact location, etc.
+They would get a detailed information on the selected Event regarding the dates, timings, exact location, etc.
