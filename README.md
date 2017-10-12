@@ -6,8 +6,9 @@ A Web App where users would be able to see upcoming events related to entertainm
 Once the users have made an account and logged in, they get an opportunity to rate the Event based on their interest, after the results are displayed. 
 They would get a detailed information on the selected Event regarding the dates, timings, exact location, etc.
 
-This App has been developed with the help of HTML(for the structure of the app), CSS(Styling of the App), Javascript and jQuery(to make it interactive), and plug-ins such as Moments.js to set the date's format, Rateyo Plugin to get the ratings for the search results from the user.
+This App has been developed with the help of HTML, CSS, Javascript and jQuery.
 
-Eventful's API has been used here to meld the data. JSONP has been used to make asynchronous requests for data as it was hosted on another domain.
+Eventful's API has been used here to meld the data. JSONP has been used to make asynchronous requests for data as it was hosted on another domain. Some plug-ins are also included for additional features, such as Moments.js to set the date's format, Rateyo Plugin to get the ratings for the search results from the user.
+
 
 
