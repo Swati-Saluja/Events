@@ -2,7 +2,7 @@
 
 ![fullsizerender](https://user-images.githubusercontent.com/27262988/31465369-c9849ede-aea1-11e7-8481-747209337a08.jpg)
 
-## User Flows and Wireframes for the App
+## User Flow and Wireframe for the App
 User Flow-> https://gomockingbird.com/projects/b26ybb5
 
 Wireframe-> https://go.gliffy.com/go/share/sq0lj1opuge421ff24c9
