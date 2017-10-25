@@ -14,9 +14,11 @@ nav {
   background-color: black;
   width:100%;
 }
+
 nav ul li{
 	display: inline-block;
 }
+
 nav ul li a{
 	text-decoration:none;
 	color:white;
@@ -41,6 +43,7 @@ nav ul li a{
 	text-align: center;
 	color:darkblue;*/
 }
+
 .about-events{
 	color:maroon;
 	font-size: 18px;

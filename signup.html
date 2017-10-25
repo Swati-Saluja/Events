@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Log In</title>
 	<link href="index.html">
@@ -26,37 +26,30 @@
 		
 	<section>
 		<form id='signup' action="#" class="js-signup-form">
-				<div class = "fName">
-   				    	<label for="firstName" required>First Name</label>
-      						<input placeholder='Enter First Name' type="text" name='fName' id='fName' class="js-fName" required/> 
-      			</div>
-      			<div class = "lName">
-   				    	<label for="lastName" required>Last Name</label>
-      						<input placeholder='Enter Last Name' type="text" name='lName' id='lName' class="js-lName" required/> 
-      			</div>
-   				
-   				<div class = "email-details">
-   				    	<label for="email" required>Email</label>
-      						<input placeholder='Enter Email' type="text" name='email' id='email' class="js-email" required/> 
-      			</div>		
-      			
-      			<div class = "password-details">
-      				    <label for="password" required>Password</label>
-      						<input type="password" name='password' id='password' class="js-password" placeholder='Enter Password' required/>
-      			</div>
-
-      			<div class = "re-password">
-      				    <label for="re-password" required>Re-enter Password</label>
-      						<input type="re-password" name='re-password' id='re-password' class="js-re-password" placeholder='Re-enter Password' required/>
-      			</div>
-
-
-      			
-      			<div class="button">
-						<button id="btn-login-submit" class="login-button" type="submit" name="login-button">Sign Up</button> 
-				</div>		
-						
-			</form>
+			<div class = "fName">
+   				<label for="firstName" required>First Name</label>
+      				<input placeholder='Enter First Name' type="text" name='fName' id='fName' aria-label="fName" class="js-fName" required/> 
+      		</div>
+      		<div class = "lName">
+   				<label for="lastName" required>Last Name</label>
+      				<input placeholder='Enter Last Name' type="text" name='lName' id='lName' aria-label="lName" class="js-lName" required/> 
+   			</div>
+			<div class = "email-details">
+   				<label for="email" required>Email</label>
+      				<input placeholder='Enter Email' type="text" name='email' id='email' aria-label="email" class="js-email" required/> 
+      		</div>		
+      		<div class = "password-details">
+      			<label for="password" required>Password</label>
+      				<input type="password" name='password' id='password' aria-label="password" class="js-password" placeholder='Enter Password' required/>
+      		</div>
+			<div class = "re-password">
+      			<label for="re-password" required>Re-enter Password</label>
+      				<input type="password" name='re-password' id='re-password' aria-label="re-password" class="js-re-password" placeholder='Re-enter Password' required/>
+      		</div>
+			<div class="button">
+				<button id="btn-login-submit" class="login-button" type="submit" name="login-button">Sign Up</button> 
+			</div>		
+		</form>
 	</section>
 
 
