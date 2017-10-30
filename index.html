@@ -12,9 +12,7 @@
     <link href="about.html">
     <link href="login.html">
 </head>
-
 <body>
-  
     <nav role="navigation" class="nav_bar">
       <img src="https://d.wildapricot.net/images/newsblog/bigstock-events-thumb.jpg?sfvrsn=0" class="icon" alt="events image">
           <ul>
@@ -24,7 +22,6 @@
             <li><a href="signup.html" id="signup">Sign Up</a></li>
           </ul>
     </nav>
-
     <div class="first-look">
       <section>
         <header role="banner">
@@ -32,8 +29,6 @@
         </header>
       </section>
     </div>  
-
-
     <main role="main">
           <form id='search' action = "#" class = "js-search-form">
               <section>
@@ -42,14 +37,14 @@
                         <div class = "location">
 
                           <label for="location">Location</label>
-                            <input type="text" name='location' id='location' class="js-query" aria-label="location" placeholder='Search by Location' > 
+                            <input type="text" name="location" id="location" class="js-query" aria-label="location" placeholder="Search by Location" > 
                         </div>  
                     </div>
                     <div class="col-6">
                         <div class="find">
 
                           <label for="find">Find</label>
-                            <input type="text" name='find' id='keyword' class="js-query" aria-label="location" placeholder='Event Title, eg., Movies/ Concerts'>
+                            <input type="text" name="find" id="keyword" class="js-query" aria-label="location" placeholder="Event Title, eg., Movies/ Concerts">
                         </div>
                     </div>  
                   </div>
@@ -59,23 +54,21 @@
                         <div class="start_date">
 
                           <label for="start_date">Start Date</label>
-                            <input type="date" name='start_date' id='start_date' class="js-query" aria-label="start_date" required placeholder='eg., This week' > 
+                            <input type="date" name="start_date" id="start_date" class="js-query" aria-label="start_date" required placeholder="eg., Today's date" > 
                         </div>  
                     </div>
                     <div class="col-6">
                       <div class="end_date">
                           <label for="end_date">End Date</label>
-                            <input type="date" name='end_date' id='end_date' class="js-query" aria-label="end_date" required placeholder='eg., Future Date' > 
+                            <input type="date" name="end_date" id="end_date" class="js-query" aria-label="end_date" required placeholder="eg., Future Date" > 
                       </div>
                     </div>
                   </div>
-              
-
                   <div class="row">
                     <div class="col-12">
                       <div class="distance">
                         <label for="miles">Within Miles</label>
-                          <select name="miles" id='miles' required>
+                          <select name="miles" id="miles" required>
                             <option value="5">5</option>
                             <option value="10">10</option>
                             <option value="15">15</option>
@@ -83,32 +76,21 @@
                             <option value="25">25</option>
                             <option value="30">30</option>
                           </select>
-                      
-                        <button aria-labelled-by="button" id="btn-search-submit" class="search-button" type="submit" name="search-button"></button> 
+                      <button aria-labelled-by="button" id="btn-search-submit" class="search-button" type="submit" name="search-button"></button> 
                       </div>
                     </div>  
                   </div>    
-              
               </section>
           </form>
     </main> 
-
-
         <div class="js-search-results">
-      
         </div>
-          
-
         <div class="results">
-          
         </div>
-            
-          
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="index.js"></script>
     <script src="moments.js"></script>
     <script src="Rateyoplugin/jquery.rateyo.js"></script>
-
 </body>
 </html>
         
