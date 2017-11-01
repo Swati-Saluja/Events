@@ -83,7 +83,7 @@ function watchSubmit() {
 
   $('.js-search-form').submit(event => {
     event.preventDefault();
-
+    event.stopPropagation();
       const searchTermOne = $("#location").val();
       const searchTermTwo = $("#keyword").val();
       const startDate = $("#start_date").val();
