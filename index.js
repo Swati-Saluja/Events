@@ -23,16 +23,18 @@ function getDataFromApi(searchTermOne, searchTermTwo, searchTermThree, dates, ca
   });
 }
 function renderResult(result) {
+  //used concatenation so that it works on all the browsers
   return '\n      \n      <div class="result-displayed">\n\n        <div class="image">\n          <a class="js-result-title" href="' + result.url + '" target="_blank"><div class="img" style="background-image:url(\'' + result.image.medium.url + '\')"\n            alt="Sorry! This image does not exist!"></div></a>\n          <p>Click on the Image for more details!</p>\n        </div> \n\n        <h2 id="title">' + result.title + ' </h2>\n        <h4>' + result.start_time + '</h4>\n        <h3>in ' + result.city_name + '</h3>\n        <p>Check out ' + result.title + '!</p> \n      \n        <div class="rateYo" aria-labelled-by="rating"> \n                <script>$(".rateYo").rateYo({\n               starWidth: "20px"\n                });</script> \n        </div> \n\n      </div>\n  ';
 }
 
 function displayEventfulSearchData(data) {
-  if (!data.events) {
+  // give an alert if there are no results
+  if (!data.events) {   
     alert("No results found!");
     return false;
   }
 
-  var results = data.events.event.map(function (item, index) {
+  var results = data.events.event.map(function (item, index) { //removed fat arrow function so that the results are rendered on all the browsers
     //if image is 'null' in json response, set a default image
     if (item.image === null) {
       item.image = { medium: { url: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfTAAAAJGUzYWU5MjNlLWUyYmItNGEyYi05OWM4LWNkYzI0NGU2YWZmNQ.jpg' } };
