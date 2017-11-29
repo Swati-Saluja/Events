@@ -1,20 +1,41 @@
 body  {
   box-sizing: border-box;
   font: 14px/1.7 'PT Sans Caption', sans-serif;
-  margin:0;
+  margin: 0;
   padding: 0; 
-  background-color: #E1F5A9;
+  /*background-color: #771313;*/
+  /*background-color: rgb(125,0,45);*/
+  /*background-color: black;*/
+  /*background-color: #801515;*/
+  /*background-color:  rgb(135,36,48);*/
+  /*background-color: red;*/
+  /*background-color: #881f1f;*/
+  /*background-color: purple;*/
+  /*background-color: #a31a1a;*/
+  /*background-color: #9b1926;*/
+  /*background-color: #C70039;*/
+  /*background-color:  #C70039;*/
+  /*background-color: grey;*/
+  background-color: #6e6e6c;
+  /*background-color: #aaaa98;*/
 }
 
 nav {
   box-sizing: border-box;
-  padding:auto 10px;
-  border: 2px solid red;
-  text-align: right;
+  padding: auto 10px;
+  /*border: 2px solid  #C70039;*/
+  /*border: 4px solid  purple;*/
+  /*border: 2px solid white;*/
+  border: 2px solid #b71c1c;
+  /*border: 2px solid pink;
+  border: 2px solid #ff80ab;
+  */text-align: right;
   position: fixed;
   height: 60px;
-  background-color: black;
-  width:100%;
+  /*background-color: grey;
+  background-color: #6e6e6c;*/
+  background-color: #aeaeae;
+  width: 100%;
 }
 
 nav ul li{
@@ -22,34 +43,35 @@ nav ul li{
 }
 
 nav ul li a{
-  text-decoration:none;
-  color:white;
-  margin-left:40px;
+  text-decoration: none;
+  color: white;
   margin-right: 40px;
 }
 
 nav ul li a:hover{
-  color: red;
+  color: #26418f;
 }
 
 .current{
-  color:red;
+  color:  #c70039;
+  color: pink;
+  color: #b71c1c;
 }
 
 .icon{
-  width:100px;
-  position:absolute;
-  left:75px;
-  border-radius:50%;
-  border:1px solid black;
-  margin-top:10px;
+  width: 100px;
+  position: absolute;
+  left: 75px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-top: 10px; 
 }
 
 .first-look{
-  border:2px solid black;
-  background-color: green;
+  border: 2px solid black;
+  background-color: #b71c1c;
   padding-top: 5%;
-  background-image: url("https://cdn.londonandpartners.com/visit/london-organisations/alexandra-palace/92923-640x360-alexandra-palace-gig-640.jpg");
+  background-image: url("http://www.7cityevents.com/img/event1.jpg");
   background-size: cover;
   background-position: 0 55%; 
   font-weight: 900;
@@ -59,23 +81,25 @@ nav ul li a:hover{
 .first-look header h1{
   text-align: center;
   font-size: 70px;
-  color:black;
+  color: white;
+  font-weight: 200;
 }
 
 form{
   width: 100%; 
   text-align: center;
   height: 320px; 
-  margin:0 auto;
+  margin: 0 auto;
   border-bottom: 1px solid #E1F5A9;
+  color:white;
 }
 
 form input{
-  height:22px;
+  height: 22px;
 }
 
 .col-6>div{
-  margin-top:70px;
+  margin-top: 70px;
 }
 
 form #location{
@@ -87,7 +111,7 @@ form #location{
 }
 
 label{
-  display:inline-block;
+  display: inline-block;
   margin-right: 10px;
 }
 
@@ -105,26 +129,26 @@ form #end_date{
  }
 
 .distance{
-    height:30px;
+    height: 30px;
 }
 
 #miles{
-  height:30px;
+  height: 30px;
   vertical-align: middle;
 }
 
 button{
-  border-radius:4px;
+  border-radius: 4px;
   width: 280px;
   height: 32px;
-  border:1px solid rgb(169,169,169);
+  border: 1px solid rgb(169,169,169);
 }
 
 button[name=search-button]{
-  background-image:url(https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png); 
-  background-position:center;
+  background-image: url(https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png); 
+  background-position: center;
   margin-left: 20px;      
-  width:40px;
+  width: 40px;
   background-size: 32px; 
   margin-top: 60px;
   margin-bottom: 60px;
@@ -142,7 +166,7 @@ button[name=search-button]{
 }
 
 .result-displayed h4{
-  color:grey;
+  color: grey;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -153,9 +177,9 @@ button[name=search-button]{
 
 .image{
   margin-top: 15px;
-  float:right;
+  float: right;
   margin-right: 225px;
-  clear:right;
+  clear: right;
   }
 
 .image p{
@@ -164,7 +188,7 @@ button[name=search-button]{
 }
 
 .result-displayed p{
-  color:grey;
+  color: grey;
   font-weight: 600;
 }
 
@@ -196,20 +220,20 @@ h2#title{
 
 .border { 
   border: 1px solid grey;
-  margin:0 auto;
+  margin: 0 auto;
  }
 
 .js-search-results{
   margin-top: 19px;
   background-color: white;
   border-bottom: 2px solid black;
-  border-top:2px solid black;
+  border-top: 2px solid black;
 }
 
 .img{
-  width:200px;
-  height:130px;
-  background-size:cover;
+  width: 200px;
+  height: 130px;
+  background-size: cover;
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
@@ -220,9 +244,9 @@ h2#title{
 }
 
 .results .result-displayed:nth-child(odd){
-  background:#E8E8E8;
-  border-bottom:1px solid grey; 
-  border-top:1px solid grey;
+  background: #E8E8E8;
+  border-bottom: 1px solid grey; 
+  border-top: 1px solid grey;
   padding-bottom: 40px;
 }
 
@@ -234,8 +258,8 @@ form #keyword{
 
 
 label{
-  display:block;
-  width:100%;
+  display: block;
+  width: 100%;
 }
 
 .js-search-results{
@@ -245,7 +269,7 @@ label{
 .result-displayed{
   text-align: center;
   display: block;
-  padding:0;
+  padding: 0;
 }
 
 .image{
@@ -255,7 +279,7 @@ label{
 }
 
 .img {
-  margin:auto;
+  margin: auto;
   display: block;
   margin-top: 10%;
   float:none;
@@ -282,17 +306,17 @@ label{
 
 button[name=search-button]{
   vertical-align: middle;
-  margin:0;
+  margin: 0;
   margin-left: 20px;
 }
 
 .icon{
-  position:absolute;
-  left:10px;
+  position: absolute;
+  left: 10px;
 }
 
 nav {
-  margin-top:0;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -301,11 +325,11 @@ nav ul{
 }
 
 nav ul li{
-  width: 24%;
+  width: 25%;
   text-align: center;
 }
 
 nav ul li a{
-margin-left:0;
-margin-right:0;
+margin-left: 0;
+margin-right: 0;
 }
